@@ -20,4 +20,10 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)infrastructure\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewsModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
 </Project>
